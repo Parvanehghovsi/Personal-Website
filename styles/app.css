@@ -65,7 +65,7 @@ ul {
 .section-head__caption {
   color: var(--text-color);
   margin: 0.5rem 0 2rem 0;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
 }
 
 .section-head__line {
@@ -301,8 +301,8 @@ body {
   background: url("../images/header-avatar.jpg") no-repeat;
   background-position: center;
   background-size: cover;
-  width: 55rem;
-  height: 55rem;
+  width: 50rem;
+  height: 50rem;
   border-radius: 100%;
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
@@ -320,7 +320,6 @@ body {
 
 .aboutus {
   margin-top: 6rem;
-  margin-bottom: 4rem;
 }
 
 .about {
@@ -399,4 +398,69 @@ body {
   gap: 3rem;
   flex-wrap: wrap;
   width: 100%;
+}
+
+/* 
+
+--Services
+
+*/
+
+.services {
+  margin-top: 20rem;
+}
+
+.service {
+  color: #fff;
+  text-align: center;
+  padding: 7rem 3rem;
+  position: relative;
+  z-index: 5;
+  height: 100%;
+}
+
+.service--purple {
+  background: #8540ff;
+}
+
+.service--yellow {
+  background: #ffc50c;
+}
+
+.service--pink {
+  background: #ec407a;
+}
+
+.service--orange {
+  background: #ff6331;
+}
+
+.service--blue {
+  background: #13b6ff;
+}
+
+.service--green {
+  background: #49af46;
+}
+
+.service__icon {
+}
+
+.service__title {
+  font-size: 2.4rem;
+  font-family: "Poppins Bold";
+  margin-top: 1.6rem;
+  margin-bottom: 0;
+}
+
+.service__caption {
+  margin-bottom: 0;
+}
+
+.service__wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
 }
