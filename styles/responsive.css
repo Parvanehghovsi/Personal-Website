@@ -207,6 +207,9 @@
   .service__wave {
     display: none;
   }
+  .footer__wrapper {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 460px) {
